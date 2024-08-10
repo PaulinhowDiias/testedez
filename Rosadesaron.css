@@ -1,0 +1,116 @@
+body {
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    background-color: #151814;
+    width: 100vw;
+    text-align: center;
+}
+section{
+    margin: 5px;
+    margin-right: 5px;
+}
+h1#Principal {
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #DA608B;
+    font-family: 'Times New Roman', Times, serif;
+}
+a.inicio {
+    color: #DA608B;
+    text-decoration: none;
+}
+a.inicio:visited {
+    color: #DA608B;
+}
+a {
+    text-decoration: none;
+}
+a.un:hover {
+    text-decoration: underline;
+}
+a.un:active{
+    color: #551AA4;
+}
+a.rp{
+    display: inline-block;
+    border-width: 1px;
+    padding:4px;
+    transition-duration: 0.2s;
+    border-radius: 4px;
+    text-align: center;
+}
+a.rp:hover {
+    color: aliceblue;
+    background-color: #151814;
+}
+nav{
+    text-align: center;
+}
+nav > a{
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+a > img{
+    width: 25px;
+}
+h2.rd{
+    text-align: center;
+    table-layout: fixed;
+
+}
+.itens{
+    background-color: #c7c4e0;
+    padding: 8px;
+    display: flex;
+    flex-wrap: 1;
+    justify-content: space-evenly;
+    border: solid;
+    border-color: #838282;
+    border-right: none;
+    border-left: none;
+
+    border-width: 1px
+
+}
+main{
+    height: 80vh;
+}
+footer{
+    color: #ffffff;
+    background-color: #151814;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+section{
+    margin-top: -10px;
+}
+footer > nav > div{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+footer > nav{
+    display: flex;
+    flex-wrap: nowrap;
+}
+footer > nav > div > div.testet{
+    display: flex;
+    justify-content: space-evenly;
+}
